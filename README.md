@@ -25,6 +25,8 @@ Configure the scenes created previously in this gameobject
 
 Add Network Transform. Set *Transform Sync Mode* parameter to  *Sync Transform*
 
+In the **Network Identity** object (Added when you have placed Player.cs in this object), mark: **Local Player Authority**
+
 Remember to change this object in prefab and remove from Unity Hierarchy
 
 Configure this prefab in "NetworkLobbyManager"
