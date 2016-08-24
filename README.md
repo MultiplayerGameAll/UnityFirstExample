@@ -10,7 +10,7 @@
 ## Cena lobby
 
 
-Create empty gameobject: "NetworkLobbyManager". In this gameobject add,
+### Create empty gameobject: "NetworkLobbyManager". In this gameobject add,
 
 Add "Network Lobby Manager (Script)"
 
@@ -19,17 +19,18 @@ Add "Network Manager Hud"
 Configure the scenes created previously in this gameobject
 
 
-Create "player" - prefab (cube). In this gameobject add,
+### Create "player" - prefab (cube). In this gameobject add,
 
 Player.cs, script available in this repository. 
 
 Add Network Transform. Set *Transform Sync Mode* parameter to  *Sync Transform*
 
 Remember to change this object in prefab and remove from Unity Hierarchy
+
 Configure this prefab in "NetworkLobbyManager"
 
 
-Create prefab "LobbyPlayerGUI". 
+### Create prefab "LobbyPlayerGUI". 
 
 Add "Network lobby player"
 
