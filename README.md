@@ -7,7 +7,7 @@
 03. Add scenes in project building (File -> Build Settings)
 
 
-## Cena lobby
+## lobby scene
 
 
 ### Create empty gameobject: "NetworkLobbyManager". In this gameobject add,
@@ -21,7 +21,7 @@ Configure the scenes created previously in this gameobject
 
 ### Create "player" - prefab (cube). In this gameobject add,
 
-Player.cs, script available in this repository. 
+Player.cs(Player.cs), script available in this repository. 
 
 Add Network Transform. Set *Transform Sync Mode* parameter to  *Sync Transform*
 
@@ -38,7 +38,7 @@ Remember to change this object, "LobbyPlayerGUI", in prefab and remove from Unit
 
 Configure this prefab in "NetworkLobbyManager"
 
-## Scene **game**
+## **game** scene
 
 Create the game in this scene. Example: a plain.
 
