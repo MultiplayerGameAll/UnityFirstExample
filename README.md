@@ -7,24 +7,27 @@
 03. Add scenes in project building (File -> Build Settings)
 
 
-Cena lobby
-========== 
+## Cena lobby
+
+
 Create empty gameobject: "NetworkLobbyManager". In this gameobject add,
 Add "Network Lobby Manager (Script)"
 Add "Network Manager Hud"
 Configure the scenes created previously in this gameobject
 
 
-Criar "player" - prefab (cubo). Neste gameobject adicionar
-Criar script do player. Modificar herança para "NetworkBehaviour"
-Add Network Transform. Transform Sync Mode(Sync Transform)
-Transformar player em prefab e excluir do explorer
-Configurar este prefab no "NetworkLobbyManager"
+Create "player" - prefab (cube). In this gameobject add,
+Player.cs, script available in this repository. 
+Add Network Transform. Set *Transform Sync Mode* parameter to  *Sync Transform*
+Remember to change this object in prefab and remove from Unity Hierarchy
+Configure this prefab in "NetworkLobbyManager"
 
-Criar prefab "LobbyPlayerGUI". 
+Create prefab "LobbyPlayerGUI". 
 Add "Network lobby player"
-Transformar "LobbyPlayerGUI" em prefab e excluir do explorer
-Configurar este prefab no "NetworkLobbyManager"
+Remember to change this object, "LobbyPlayerGUI", in prefab and remove from Unity Hierarchy
+Configure this prefab in "NetworkLobbyManager"
 
-Cena game
-Criar o cenário do jogo, no exemplo um plano
+## Scene **game**
+
+Create the game in this scene. Example: a plain.
+
