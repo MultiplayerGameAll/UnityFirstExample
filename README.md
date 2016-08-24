@@ -21,7 +21,7 @@ Configure the scenes created previously in this gameobject
 
 ### Create "player" - prefab (cube). In this gameobject add,
 
-Player.cs(Player.cs), script available in this repository. 
+[Player.cs](Player.cs), script available in this repository. 
 
 Add Network Transform. Set *Transform Sync Mode* parameter to  *Sync Transform*
 
